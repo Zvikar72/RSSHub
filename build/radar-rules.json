@@ -8822,6 +8822,19 @@
       }
     ]
   },
+  "iplaysoft.com": {
+    "_name": "异次元软件世界",
+    "www": [
+      {
+        "title": "全部文章",
+        "docs": "https://docs.rsshub.app/routes/program-update",
+        "source": [
+          "/"
+        ],
+        "target": "/iplaysoft/"
+      }
+    ]
+  },
   "ippa.top": {
     "_name": "子方有料",
     ".": [
@@ -10449,6 +10462,19 @@
           "/"
         ],
         "target": "/minecraft/version/:versionType?/:linkType?"
+      }
+    ]
+  },
+  "mirrormedia.mg": {
+    "_name": "鏡週刊 Mirror Media",
+    ".": [
+      {
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/"
+        ],
+        "target": "/mirrormedia/"
       }
     ]
   },
@@ -18205,6 +18231,19 @@
       }
     ]
   },
+  "xinhuanet.com": {
+    "_name": "新华网",
+    "app": [
+      {
+        "title": "客户端",
+        "docs": "https://docs.rsshub.app/routes/traditional-media",
+        "source": [
+          "/"
+        ],
+        "target": "/xinhuanet/app"
+      }
+    ]
+  },
   "xjtu.edu.cn": {
     "_name": "西安交通大学",
     "ee": [
@@ -18375,7 +18414,7 @@
   },
   "yahoo.com": {
     "_name": "Yahoo",
-    ".": [
+    "news": [
       {
         "title": "News",
         "docs": "https://docs.rsshub.app/routes/new-media",
@@ -18383,6 +18422,26 @@
           "/"
         ],
         "target": "/yahoo/news/:region/:category?"
+      }
+    ],
+    "hk.news": [
+      {
+        "title": "新聞來源列表",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/",
+          "/"
+        ],
+        "target": "/yahoo/news/providers/:region/list"
+      },
+      {
+        "title": "新聞來源",
+        "docs": "https://docs.rsshub.app/routes/new-media",
+        "source": [
+          "/",
+          "/"
+        ],
+        "target": "/yahoo/news/provider/:region/:providerId"
       }
     ]
   },
